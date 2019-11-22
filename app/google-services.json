@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "162325675401",
+    "firebase_url": "https://tblexam.firebaseio.com",
+    "project_id": "tblexam",
+    "storage_bucket": "tblexam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162325675401:android:25bae460bc22c2d1d93558",
+        "android_client_info": {
+          "package_name": "ph.wahid.contactslistrealtimechatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162325675401-nfgipqfe8oted43de495einli569oluo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ph.wahid.contactslistrealtimechatapplication",
+            "certificate_hash": "ede48fae84d833c86aac972d47dba903afbcd409"
+          }
+        },
+        {
+          "client_id": "162325675401-e6216dmcc7oo2fugg36u3lbefbbkps4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmDWF91e8CXLjUmi5d8mG0Oj3IB3gVinw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162325675401-e6216dmcc7oo2fugg36u3lbefbbkps4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
