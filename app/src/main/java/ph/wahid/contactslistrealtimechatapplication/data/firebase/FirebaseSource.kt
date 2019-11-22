@@ -32,7 +32,6 @@ class FirebaseSource {
         firebaseAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener {
             if (!emitter.isDisposed) {
                 if (it.isSuccessful){
-                    writeNewUser(currentUser()?.uid,currentUser()?.displayName,currentUser()?.email)
                     emitter.onComplete()
                 }
                 else
