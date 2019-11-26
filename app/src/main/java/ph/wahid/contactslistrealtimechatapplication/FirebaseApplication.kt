@@ -10,8 +10,8 @@ import org.kodein.di.generic.provider
 import org.kodein.di.generic.singleton
 import ph.wahid.contactslistrealtimechatapplication.data.firebase.FirebaseSource
 import ph.wahid.contactslistrealtimechatapplication.data.repositories.UserRepository
-import ph.wahid.contactslistrealtimechatapplication.databinding.ActivityLoginBinding.bind
 import ph.wahid.contactslistrealtimechatapplication.ui.auth.AuthViewModelFactory
+import ph.wahid.contactslistrealtimechatapplication.ui.home.HomeViewModelFactory
 
 class FirebaseApplication : Application(), KodeinAware {
 
@@ -21,7 +21,7 @@ class FirebaseApplication : Application(), KodeinAware {
         bind() from singleton { FirebaseSource() }
         bind() from singleton { UserRepository(instance()) }
         bind() from provider { AuthViewModelFactory(instance()) }
-        //bind() from provider { HomeViewModelFactory(instance()) }
+        bind() from provider { HomeViewModelFactory(instance()) }
 
     }
 }
